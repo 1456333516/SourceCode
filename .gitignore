@@ -1,0 +1,32 @@
+# Keil MDK generated files
+*.uvoptx
+*.uvguix.*
+*.scvd
+*.lst
+*.map
+*.hex
+*.axf
+*.crf
+*.d
+*.o
+*.dep
+*.iex
+*.htm
+*.sct
+*.lnp
+*.bak
+
+# Listings and Objects folders (Keil output folders)
+Listings/
+Objects/
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+MDK-ARM/*.uvguix.*
+
+# JLink / Debugger settings
+JLinkLog.txt
+*.jlink
+
+# Python or other temp files (if any)
+__pycache__/
+*.tmp
