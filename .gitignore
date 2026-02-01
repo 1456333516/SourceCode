@@ -1,27 +1,50 @@
-# Keil MDK generated files
-*.uvoptx
-*.uvguix.*
-*.scvd
-*.lst
-*.map
-*.hex
-*.axf
-*.crf
-*.d
+# Keil MDK-ARM
 *.o
-*.dep
-*.iex
+*.d
+*.crf
+*.lst
+*.axf
 *.htm
-*.sct
 *.lnp
+*.sct
+*.map
+*.dep
+*.uvguix.*
 *.bak
-
-# Listings and Objects folders (Keil output folders)
+*.uvoptx
+*.uvprojx.bak
+DebugConfig/
 Listings/
 Objects/
-MDK-ARM/DebugConfig/
-MDK-ARM/RTE/
-MDK-ARM/*.uvguix.*
+RTE/
+MDK-ARM/*/
+
+# IAR EWARM
+*.pbi
+*.xcl
+*.pbd
+*.browse
+Exe/
+List/
+Obj/
+
+# Eclipse
+.cproject
+.project
+.settings/
+
+# System Files
+Thumbs.db
+.DS_Store
+
+# Build outputs
+*.elf
+*.hex
+*.bin
+*.out
+
+# Logs
+*.log
 
 # JLink / Debugger settings
 JLinkLog.txt
@@ -30,3 +53,6 @@ JLinkLog.txt
 # Python or other temp files (if any)
 __pycache__/
 *.tmp
+
+# VSCode
+.vscode/
